@@ -1,0 +1,24 @@
+{
+  "name": "dormdeal-tester-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test-runner": "node test-runner.js",
+    "test:diagnostic": "playwright test timing-diagnostic.spec.ts --config=playwright.debug.config.ts",
+    "test:slow": "playwright test --config=playwright.debug.config.ts",
+    "test:single": "playwright test --config=playwright.debug.config.ts --max-failures=1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  }
+}
