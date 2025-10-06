@@ -7,7 +7,7 @@ export class DormDealPageHelpers {
   // Test data constants
   static readonly URL = 'https://dormdeal-project.vercel.app';
   static readonly GOOGLE_USERNAME = '654259002';
-  static readonly GOOGLE_PASSWORD = '1730201408866';
+  static readonly GOOGLE_PASSWORD = 'xxxxxxxxx';
   static readonly PRODUCT_NAME = 'Air Jordan 1 mid light smoke grey';
   static readonly MAIN_CATEGORY = '67ee888655b50d41195bca16';
   static readonly SUB_CATEGORY = '67ee88a355b50d41195bca22';
